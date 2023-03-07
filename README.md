@@ -38,9 +38,6 @@
 
 Используйте `README.md` для ознакомления с проектом.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 ### Built With
 
