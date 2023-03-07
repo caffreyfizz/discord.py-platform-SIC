@@ -9,7 +9,7 @@
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Как начать использовать</a>
+      <a href="#как-начать-использовать">Как начать использовать</a>
     </li>
     <li><a href="#usage">Применение</a></li>
     <li><a href="#contact">Контакты</a></li>
@@ -49,12 +49,11 @@
 
 
 <!-- GETTING STARTED -->
-## Getting Started
+## Как начать использовать
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Проект работает на основе чат ботов, запущенных на внешних серверах независимо от пользователя. Следовательно вам не требуется установка библиотек через терминал / командную строку.
 
-### Prerequisites
+## Настройка ботов на сервере
 
 This is an example of how to list things you need to use the software and how to install them.
 * npm
