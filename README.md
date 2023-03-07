@@ -5,7 +5,7 @@
     <li>
       <a href="#about-the-project">О проекте</a>
       <ul>
-        <li><a href="#built-with">Библиотеки</a></li>
+        <li><a href="#библиотеки">Библиотеки</a></li>
       </ul>
     </li>
     <li>
