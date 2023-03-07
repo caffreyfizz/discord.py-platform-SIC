@@ -3,7 +3,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#О проекте">About The Project</a>
+      <a href="#О проекте">О проекте</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
