@@ -24,12 +24,14 @@
 
 ![Логотип](https://github.com/caffreyfizz/e-school-Unik/raw/main/Логотип.png)
 
-В настоящще время во многих учебных учреждениях плохо организовано общение между учениками и преподавателями. Например, учитель русского языка принимает сообщения в WhatsApp, учитель информатики на Gmail, а учитель математики только в Telegram. Данная система, построенная на двух чат ботах, позволяет решить эту проблему, организовав безопасное и быстрое взаимодействие преподавателей и учеников.
+В настоящще время во многих учебных учреждениях плохо организовано общение между учениками и преподавателями. Например, учитель русского языка принимает сообщения в WhatsApp, учитель информатики на Gmail, а учитель математики только в Telegram. Данная система, построенная на двух чат ботах, решает эту проблему, позволяя организовать безопасное и быстрое взаимодействие преподавателей и учеников.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+Вот почему:
+* Регистрация учеников и учителей сопровождается обязательным вводом паролей.
+* Под каждый класс создается отдельная категория, права доступа на которую имеют только учитель и ученики этого класса (за некоторыми исключениями и др.)
+* Личные кабинеты у каждого пользователя.
+* Возможность добавлять информацию для учеников в свои личные кабинеты (доступно только учителям, руководству и директору)
+* Смена пароля учителей, всех учеников, каждого класса в частности.
 
 Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
 
