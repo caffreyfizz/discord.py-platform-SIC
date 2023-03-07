@@ -57,7 +57,7 @@
 
 Требования к серверу на данный момент:
 
-* Операционная система Windows, macOS, Linux
+* Операционная система Windows Vista и выше, macOS, Linux
 * Наличие PyCharm и языка Python не ниже 3.8
 * Предустановленные библиотеки `discord.py`, `bs4`, `aiogram`, `asyncio`, `logging`, `requests`
   
