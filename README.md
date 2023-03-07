@@ -118,6 +118,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 ## Контакты
 
 [ВК](https://vk.com/id437234179)
+
 [Почта](nikitayusko2007@gmail.com)
 
 Ссылка на проект: [https://github.com/caffreyfizz/e-school-Unik](https://github.com/caffreyfizz/e-school-Unik)
