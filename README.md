@@ -44,8 +44,8 @@
 Здесь представлены все библиотеки, которыми я пользовался при создании проекта.
 
 * <img src="https://github.com/caffreyfizz/e-school-Unik/raw/main/images/bf.png" width="120">
-* <img src="https://github.com/caffreyfizz/e-school-Unik/raw/main/images/discordpylogo.png" width="120">
-* <img src="https://github.com/caffreyfizz/e-school-Unik/raw/main/images/aiogramlogo.png" width="120">
+* <img src="https://github.com/caffreyfizz/e-school-Unik/raw/main/images/discordpylogo.png" width="100">
+* <img src="https://github.com/caffreyfizz/e-school-Unik/raw/main/images/aiogramlogo.png" width="100">
 
 
 <!-- GETTING STARTED -->
