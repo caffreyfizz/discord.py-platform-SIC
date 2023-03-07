@@ -43,9 +43,9 @@
 
 Здесь представлены все библиотеки, которыми я пользовался при создании проекта.
 
-* ![BeautifulSoup](https://github.com/caffreyfizz/e-school-Unik/raw/main/bf.png)
-* ![Discord.py](https://github.com/caffreyfizz/e-school-Unik/raw/main/discordpylogo.png)
-* ![Aiogram](https://github.com/caffreyfizz/e-school-Unik/raw/main/aiogramlogo.png)
+* ![BeautifulSoup](https://github.com/caffreyfizz/e-school-Unik/raw/main/images/bf.png)
+* ![Discord.py](https://github.com/caffreyfizz/e-school-Unik/raw/main/images/discordpylogo.png)
+* ![Aiogram](https://github.com/caffreyfizz/e-school-Unik/raw/main/images/aiogramlogo.png)
 
 
 <!-- GETTING STARTED -->
