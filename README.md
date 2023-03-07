@@ -33,7 +33,7 @@
 * Возможность добавлять информацию для учеников в свои личные кабинеты (доступно только учителям, руководству и директору)
 * Смена пароля учителей, всех учеников, каждого класса в частности.
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+Конечно, человеческий фактор никто не упускает из виду. Распространение паролей среди учеников, намеренная нагрузка на бота с целью замедлить его скорость работы и прочее. Над всеми недочетами идет работа, и пока я вам представлю первую версию -- Электронная школа Unick 1.0.
 
 Use the `BLANK_README.md` to get started.
 
