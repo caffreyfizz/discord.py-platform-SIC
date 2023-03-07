@@ -11,19 +11,16 @@
     <li>
       <a href="#getting-started">Как начать использовать</a>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#usage">Применение</a></li>
+    <li><a href="#contact">Контакты</a></li>
+    <li><a href="#acknowledgments">Благодарности</a></li>
   </ol>
 </details>
 
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## О проекте
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
