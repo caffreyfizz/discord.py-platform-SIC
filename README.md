@@ -115,9 +115,9 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 
 <!-- CONTACT -->
-## Contact
+## Контакты
 
-Никита Юсько - [@your_twitter](https://twitter.com/your_username) - email@example.com
+ВК - [ВК](https://vk.com/id437234179) - email@example.com
 
 Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
 
