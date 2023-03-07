@@ -118,12 +118,9 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 ## Контакты
 
 [ВК](https://vk.com/id437234179)
-Почта - nikitayusko2007@gmail.com
+[Почта](nikitayusko2007@gmail.com)
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+Ссылка на проект: [https://github.com/caffreyfizz/e-school-Unik](https://github.com/caffreyfizz/e-school-Unik)
 
 
 <!-- ACKNOWLEDGMENTS -->
