@@ -91,6 +91,10 @@
   python filename.py
   ```
 
+В терминале вы должны увидеть следующие сообщения:
+<img src="https://github.com/caffreyfizz/e-school-Unik/raw/main/images/start_server.png" width="120">
+
+
 ### Installation
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
