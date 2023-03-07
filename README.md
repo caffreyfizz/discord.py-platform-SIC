@@ -55,10 +55,13 @@
 
 #### Настройка ботов на сервере
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+Требования к серверу на данный момент:
+
+* Операционная система Windows, macOS, Linux
+* Наличие PyCharm и языка Python не ниже 3.8
+* Предустановленные библиотеки `discord.py`, `bs4`, `aiogram`, `asyncio`, `logging`, `requests`
   ```sh
-  npm install npm@latest -g
+  pip install discord.py
   ```
 
 ### Installation
