@@ -24,7 +24,7 @@
 
 ![Логотип](https://github.com/caffreyfizz/e-school-Unik/raw/main/Логотип.png)
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+В настоящще время во многих учебных учреждениях плохо организовано общение между учениками и преподавателями. Например, учитель русского языка принимает сообщения в WhatsApp, учитель информатики на Gmail, а учитель математики только в Telegram. Данная система, построенная на двух чат ботах, позволяет решить эту проблему, организовав безопасное и быстрое взаимодействие преподавателей и учеников.
 
 Here's why:
 * Your time should be focused on creating something amazing. A project that solves a problem and helps others
