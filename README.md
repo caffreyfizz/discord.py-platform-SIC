@@ -60,8 +60,29 @@
 * Операционная система Windows, macOS, Linux
 * Наличие PyCharm и языка Python не ниже 3.8
 * Предустановленные библиотеки `discord.py`, `bs4`, `aiogram`, `asyncio`, `logging`, `requests`
+  
   ```sh
   pip install discord.py
+  ```
+  
+  ```sh
+  pip install bs4
+  ```
+  
+  ```sh
+  pip install aiogram
+  ```
+  
+  ```sh
+  pip install asyncio
+  ```
+  
+  ```sh
+  pip install logging
+  ```
+  
+  ```sh
+  pip install requests
   ```
 
 ### Installation
