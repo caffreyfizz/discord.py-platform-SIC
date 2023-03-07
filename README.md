@@ -131,4 +131,4 @@
 * [Stack Overflow](https://stackoverflow.com/)
 
 
-<p align="right">(<a href="#оглавление">back to top</a>)</p>
+<p align="right">(<a href="#о-проекте">back to top</a>)</p>
