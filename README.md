@@ -92,7 +92,7 @@
   ```
 
 В терминале вы должны увидеть следующие сообщения:
-<img src="https://github.com/caffreyfizz/e-school-Unik/raw/main/images/start_server.png" width="120">
+<img src="https://github.com/caffreyfizz/e-school-Unik/raw/main/images/start_server.png" width="1000">
 
 
 ### Installation
