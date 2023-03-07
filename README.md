@@ -39,21 +39,13 @@
 Используйте `README.md` для ознакомления с проектом.
 
 
-### Built With
+### Бибилотеки
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+Здесь представлены все библиотеки, которыми я пользовался при создании проекта.
 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+* ![BeautifulSoup](https://github.com/caffreyfizz/e-school-Unik/raw/main/bf.png)
+* ![Discord.py](https://github.com/caffreyfizz/e-school-Unik/raw/main/discordpylogo.png)
+* ![Aiogram](https://github.com/caffreyfizz/e-school-Unik/raw/main/aiogramlogo.png)
 
 
 <!-- GETTING STARTED -->
