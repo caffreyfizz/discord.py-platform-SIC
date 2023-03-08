@@ -11,8 +11,8 @@
     <li><a href="#как-начать-использовать">Как начать использовать</a></li>
     <li><a href="#применение">Применение</a></li>
       <ul>
-        <li><a href="#on_ready">on_ready</a></li>
-        <li><a href="#pelikan">Пеликан</a></li>
+        <li><a href="#on_ready()">on_ready</a></li>
+        <li><a href="#pelikan(ctx, cl)">Пеликан</a></li>
       </ul>
     </li>
     <li><a href="#контакты">Контакты</a></li>
