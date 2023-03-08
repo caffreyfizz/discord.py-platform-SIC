@@ -448,7 +448,7 @@
 
 [Почта](nikitayusko2007@gmail.com)
 
-[Ссылка на проект](https://github.com/caffreyfizz/e-school-Unik](https://github.com/caffreyfizz/e-school-Unik)
+[Ссылка на проект](https://github.com/caffreyfizz/e-school-Unik)
 
 
 <!-- LICENSE -->
@@ -460,7 +460,7 @@
 <!-- ACKNOWLEDGMENTS -->
 ## Благодарность
 
-Хотелось бы отдельно выделить ресурсы, которые помогли мне в реализации этого проекта.
+В первую очередь, хочу выразить слова благодарности @DMGolD ([Телеграм](https://t.me/DMGolD)) за моральную поддержку на протяжении всего времени реализации проекта.   Также отдельно выделю ресурсы, которые хорошо помогли мне в разработке.
 
 * [Документация discord.py](https://discordpy.readthedocs.io/en/stable/)
 * [Документация asyncio](https://docs.python.org/3/library/asyncio.html)
