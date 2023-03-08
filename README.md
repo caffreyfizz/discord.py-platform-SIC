@@ -13,6 +13,7 @@
     </li>
     <li><a href="#применение">Применение</a></li>
     <li><a href="#контакты">Контакты</a></li>
+    <li><a href="#лицензия">Лицензия</a></li>
     <li><a href="#благодарности">Благодарности</a></li>
   </ol>
 </details>
@@ -150,6 +151,11 @@
 [Почта](nikitayusko2007@gmail.com)
 
 Ссылка на проект: [https://github.com/caffreyfizz/e-school-Unik](https://github.com/caffreyfizz/e-school-Unik)
+
+
+### Библиотеки
+
+Распространяется по лицензии MIT. См `LICENSE` дополнительная информация.
 
 
 <!-- ACKNOWLEDGMENTS -->
