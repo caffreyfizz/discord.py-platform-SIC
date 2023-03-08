@@ -11,7 +11,7 @@
     <li><a href="#как-начать-использовать">Как начать использовать</a></li>
     <li><a href="#применение">Применение</a></li>
       <ul>
-        <li><a href="#функция-`on_ready()`">on_ready</a></li>
+        <li><a href="#**функция-`on_ready()`**">on_ready</a></li>
         <li><a href="#функция-`pelikan(ctx, cl)`">Пеликан</a></li>
       </ul>
     </li>
