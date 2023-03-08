@@ -419,7 +419,8 @@
 Аргументы:
 * Нет
 
-  Удаляет из базы данных информацию о пользователях, не находящихся на сервере. Так называемая "чистка".
+  Удаляет из базы данных информацию о пользователях, не находящихся на сервере.  
+  Так называемая "чистка".
 
   ```sh
   +проверка_пользователей
@@ -447,7 +448,7 @@
 
 [Почта](nikitayusko2007@gmail.com)
 
-Ссылка на проект: [https://github.com/caffreyfizz/e-school-Unik](https://github.com/caffreyfizz/e-school-Unik)
+[Ссылка на проект](https://github.com/caffreyfizz/e-school-Unik](https://github.com/caffreyfizz/e-school-Unik)
 
 
 <!-- LICENSE -->
@@ -465,6 +466,7 @@
 * [Документация asyncio](https://docs.python.org/3/library/asyncio.html)
 * [Документация aiogram](https://docs.aiogram.dev/ru/latest/index.html)
 * [Stack Overflow](https://stackoverflow.com/)
+* [Habr](https://habr.com/ru/all/)
 
 
 <p align="right">(<a href="#о-проекте">В начало</a>)</p>
