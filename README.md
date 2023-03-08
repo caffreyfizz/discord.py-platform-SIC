@@ -11,7 +11,16 @@
     <li>
       <a href="#как-начать-использовать">Как начать использовать</a>
     </li>
-    <li><a href="#применение">Применение</a></li>
+    <ol>
+    <li>
+      <a href="#применение">Применение</a>
+      <ul>
+        <li><a href="#on_ready">on_ready</a></li>
+        <li><a href="#pelikan">pelikan</a></li>
+        <li><a href="#telegram">telegram</a></li>
+      </ul>
+    </li>
+    <li>
     <li><a href="#контакты">Контакты</a></li>
     <li><a href="#лицензия">Лицензия</a></li>
     <li><a href="#благодарности">Благодарности</a></li>
