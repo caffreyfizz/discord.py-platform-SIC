@@ -16,7 +16,9 @@
       <a href="#применение">Применение</a>
       <ul>
         <li><a href="#on_ready">on_ready</a></li>
+      </ul>
         <li><a href="#pelikan">pelikan</a></li>
+      </ul>
         <li><a href="#telegram">telegram</a></li>
       </ul>
     </li>
