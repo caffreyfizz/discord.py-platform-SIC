@@ -153,6 +153,7 @@
 Ссылка на проект: [https://github.com/caffreyfizz/e-school-Unik](https://github.com/caffreyfizz/e-school-Unik)
 
 
+<!-- LICENSE -->
 ### Лицензия
 
 Распространяется по лицензии MIT. См `LICENSE` дополнительная информация.
