@@ -13,7 +13,7 @@ from aiogram.contrib.fsm_storage.memory import MemoryStorage
 from aiogram.utils import executor
 
 
-API_TOKEN = "5939181352:AAGoG3q5-vYX37Ns0TNNDmvgLGZ8AETcJ4I"  # token Telegram bot
+API_TOKEN = "token"  # token Telegram bot
 logging.basicConfig(level=logging.INFO)
 tele_bot = Bot(token=API_TOKEN)  # Telegram bot
 storage = MemoryStorage()
@@ -878,7 +878,7 @@ async def get_id(message: types.Message):
     await message.answer(f"Можете отправить Discord боту как и цифры, так и полностью сообщение с ID")
 
 
-loop.create_task(bot.start('MTAxNTI4NDY3ODY4MjQ4ODg3Mg.GNTFVI.pip-PXUk0i2j8QQqE2kg4Nidx959JU4OC-epFg'))
+loop.create_task(bot.start('token'))
 loop.create_task(executor.start_polling(dp, skip_updates=True))
 try:
     loop.run_forever()
