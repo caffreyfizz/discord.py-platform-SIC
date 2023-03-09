@@ -106,7 +106,7 @@ async def telegram(ctx, *args):
 
     logs = discord.utils.get(guild.channels, name="логи-команд")
     embed = discord.Embed(title='Телеграм', colour=discord.Colour.from_rgb(106, 192, 245))
-    embed.add_field(name=f"🧑  Пользователь:", value=ctx.author.nick, inline=False)
+    embed.add_field(name=f"🧑  Пользователь:", value=ctx.author.name, inline=False)
     embed.add_field(name=f"🕑  Время:", value=f"{datetime.strftime(date, '%d.%m.%Y | %H:%M')}", inline=False)
     embed.add_field(name=f"📝  Канал:", value="Личные сообщения с ботом", inline=False)
     embed.set_footer(text="Лог команды Телеграм | Лицей №369", icon_url=ctx.author.avatar)
@@ -135,7 +135,7 @@ async def telegram_delete(ctx):
 
     logs = discord.utils.get(guild.channels, name="логи-команд")
     embed = discord.Embed(title='Удалить_телеграм', colour=discord.Colour.from_rgb(106, 192, 245))
-    embed.add_field(name=f"🧑  Пользователь:", value=ctx.author.nick, inline=False)
+    embed.add_field(name=f"🧑  Пользователь:", value=ctx.author.name, inline=False)
     embed.add_field(name=f"🕑  Время:", value=f"{datetime.strftime(date, '%d.%m.%Y | %H:%M')}", inline=False)
     embed.add_field(name=f"📝  Канал:", value="Личные сообщения с ботом", inline=False)
     embed.set_footer(text="Лог команды Удалить_телеграм | Лицей №369", icon_url=ctx.author.avatar)
@@ -290,7 +290,7 @@ async def new_info(ctx, inf, *text):
     logs = discord.utils.get(guild.channels, name="логи-команд")
 
     # проверка пользователя на наличие роли учителя
-    if len(ctx.author.roles) >= 2 and ("Учитель" in ctx.author.roles[1].name or "Директор" in ctx.author.roles[1].name or ("Руководство" in ctx.author.roles[1].name and "Учитель" in ctx.author.roles[2].name)):
+    if len(ctx.author.roles) >= 2 and ("Учитель" in ctx.author.roles[1].name or "Директор" in ctx.author.roles[1].name or ("Руководство" in ctx.author.roles[-1].name and "Учитель" in ctx.author.roles[2].name)):
         name, surname = ctx.author.nick.split()
         if f'{name.lower()} {surname.lower()}' in new_teacher.keys():  # проверка на наличие личного кабинета этого
             # учителя
@@ -411,7 +411,7 @@ async def del_info(ctx, inf, index):
     logs = discord.utils.get(guild.channels, name="логи-команд")
 
     name, surname = ctx.author.nick.split()
-    if len(ctx.author.roles) >= 2 and ("Учитель" in ctx.author.roles[1].name or "Директор" in ctx.author.roles[1].name or ("Руководство" in ctx.author.roles[1].name and "Учитель" in ctx.author.roles[2].name)):
+    if len(ctx.author.roles) >= 2 and ("Учитель" in ctx.author.roles[1].name or "Директор" in ctx.author.roles[1].name or ("Руководство" in ctx.author.roles[-1].name and "Учитель" in ctx.author.roles[2].name)):
         del new_teacher[f'{name.lower()} {surname.lower()}'][inf.lower()][
             int(index) - 1]  # получение информации с указанным индексом и ее удаление
         await ctx.channel.send('Информация успешно удалена!')
@@ -462,7 +462,7 @@ async def new_students_password(ctx, cl, password):
 
         return
 
-    if len(ctx.author.roles) >= 2 and ("Учитель" in ctx.author.roles[1].name or ("Руководство" in ctx.author.roles[1].name and "Учитель" in ctx.author.roles[2].name)):
+    if len(ctx.author.roles) >= 2 and ("Учитель" in ctx.author.roles[1].name or ("Руководство" in ctx.author.roles[-1].name and "Учитель" in ctx.author.roles[2].name)):
 
         embed = discord.Embed(title='Учепароль', colour=discord.Colour.from_rgb(50, 205, 50))
         embed.add_field(name=f"🧑  Пользователь:", value=ctx.author.nick, inline=False)
@@ -503,7 +503,7 @@ async def new_teachers_password(ctx, password):
     role = discord.utils.get(guild.roles, name="Учитель")
     members = role.members
 
-    if len(ctx.author.roles) >= 2 and ("Директор" in ctx.author.roles[1].name or "Руководство" in ctx.author.roles[1].name):
+    if len(ctx.author.roles) >= 2 and ("Директор" in ctx.author.roles[1].name or "Руководство" in ctx.author.roles[-1].name):
 
         embed = discord.Embed(title='Учипароль', colour=discord.Colour.from_rgb(50, 205, 50))
         embed.add_field(name=f"🧑  Пользователь:", value=ctx.author.nick, inline=False)
@@ -685,7 +685,7 @@ async def new_passwords_for_students(ctx):
         if user.id in telegram_id:
             await tele_bot.send_message(telegram_id[user.id], f"Пароль класса был изменен.")
 
-    if len(ctx.author.roles) >= 2 and ("Директор" in ctx.author.roles[1].name or "Руководство" in ctx.author.roles[1].name):
+    if len(ctx.author.roles) >= 2 and ("Директор" in ctx.author.roles[1].name or "Руководство" in ctx.author.roles[-1].name):
         new_passwords = list(range(3154, 10987))
         random.shuffle(new_passwords)
         random.shuffle(new_passwords)
@@ -859,7 +859,7 @@ async def on_member_join(member):
 
 @bot.command(aliasses=["проверка_пользователей"])
 async def check_users(ctx):
-    if "Директор" in ctx.author.roles[1] or "Руководство" in ctx.author.roles[1]:
+    if "Директор" in ctx.author.roles[1].name or "Руководство" in ctx.author.roles[-1].name:
         for user in new_teacher.keys():
             try:
                 user_id = discord.utils.get(guild.members, name=user)
