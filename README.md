@@ -150,7 +150,7 @@ graph LR;
   *В любой канал. Доступна всем пользователям.*
 
 
-## **Функция `telegram(ctx, *args)`**
+### **Функция `telegram(ctx, *args)`**
 
   Смотреть в файле `Discord_bot.py`. Строка 90-105
 
@@ -171,7 +171,7 @@ graph LR;
   *В личные сообщения с ботом. Доступна всем пользователям.*
   
 
-## **Функция `telegram_delete(ctx)`**
+### **Функция `telegram_delete(ctx)`**
 
   Смотреть в файле `Discord_bot.py`. Строка 108-117
   
@@ -187,7 +187,7 @@ graph LR;
   *В личные сообщения с ботом. Доступна всем пользователям.*
 
 
-## **Функция `teacher(ctx, teachers_password, name, surname, cl, password)`**
+### **Функция `teacher(ctx, teachers_password, name, surname, cl, password)`**
 
   Смотреть в файле `Discord_bot.py`. Строка 120-172
 
@@ -212,7 +212,7 @@ graph LR;
   *В личные сообщения с ботом. Доступна всем пользователям.*
 
 
-## **Функция `student(ctx, name, surname, cl, password)`**
+### **Функция `student(ctx, name, surname, cl, password)`**
 
   Смотреть в файле `Discord_bot.py`. Строка 175-196
 
@@ -232,7 +232,7 @@ graph LR;
   *В личные сообщения с ботом. Доступна всем пользователям.*
   
 
-## **Функция `new_info(ctx, inf, *text)`**
+### **Функция `new_info(ctx, inf, *text)`**
 
   Смотреть в файле `Discord_bot.py`. Строка 199-225
 
@@ -249,7 +249,7 @@ graph LR;
   *В любой канал. Доступна директору, руководству, учителю.*
   
 
-## **Функция `info(ctx, name, surname, inf)`**
+### **Функция `info(ctx, name, surname, inf)`**
 
   Смотреть в файле `Discord_bot.py`. Строка 228-237
 
@@ -267,7 +267,7 @@ graph LR;
   *В любой канал. Доступна всем пользователям.*
   
 
-## **Функция `commands(ctx)`**
+### **Функция `commands(ctx)`**
 
   Смотреть в файле `Discord_bot.py`. Строка 240-269
   
@@ -282,7 +282,7 @@ graph LR;
   *В любой канал. Доступна всем пользователям.*
   
 
-## **Функция `del_info(ctx, inf, index)`**
+### **Функция `del_info(ctx, inf, index)`**
 
   Смотреть в файле `Discord_bot.py`. Строка 272-283
 
@@ -300,7 +300,7 @@ graph LR;
   *В любой канал. Доступна директору, руководству, учителю.*
   
 
-## **Функция `new_students_password(ctx, cl, password)`**
+### **Функция `new_students_password(ctx, cl, password)`**
 
   Смотреть в файле `Discord_bot.py`. Строка 286-315
 
@@ -317,7 +317,7 @@ graph LR;
   *В любой канал. Доступна руководству и учителю.*
   
 
-## **Функция `new_teachers_password(ctx, password)`**
+### **Функция `new_teachers_password(ctx, password)`**
 
   Смотреть в файле `Discord_bot.py`. Строка 318-345
 
@@ -333,7 +333,7 @@ graph LR;
   *В любой канал. Доступна директору и руководству.*
   
 
-## **Функция `start(ctx, name, surname, password)`**
+### **Функция `start(ctx, name, surname, password)`**
 
   Смотреть в файле `Discord_bot.py`. Строка 348-458
 
@@ -366,7 +366,7 @@ graph LR;
   *В любой канал. Доступна директору.*
 
 
-## **Функция `new_passwords_for_students(ctx)`**
+### **Функция `new_passwords_for_students(ctx)`**
 
   Смотреть в файле `Discord_bot.py`. Строка 461-485
   
@@ -382,7 +382,7 @@ graph LR;
   *В любой канал. Доступна директору и руководству.*
   
 
-## **Функция `stop_reg_teacher(ctx)`**
+### **Функция `stop_reg_teacher(ctx)`**
 
   Смотреть в файле `Discord_bot.py`. Строка 488-516
   
@@ -398,7 +398,7 @@ graph LR;
   *В любой канал. Доступна директору.*
   
 
-## **Функция `stop_reg_students(ctx)`**
+### **Функция `stop_reg_students(ctx)`**
 
   Смотреть в файле `Discord_bot.py`. Строка 519-552
   
@@ -414,7 +414,7 @@ graph LR;
   *В любой канал. Доступна директору.*
   
 
-## **Функция `on_member_join(member)`**
+### **Функция `on_member_join(member)`**
 
   Смотреть в файле `Discord_bot.py`. Строка 555-579
   
@@ -424,7 +424,7 @@ graph LR;
   Системная (не вызывается вручную). Отправляет приветственное сообщение новым пользователям.
   
 
-## **Функция `check_users(ctx)`**
+### **Функция `check_users(ctx)`**
 
   Смотреть в файле `Discord_bot.py`. Строка 582-594
   
@@ -440,7 +440,7 @@ graph LR;
   *В любой канал. Доступна директору и руководству.*
 
 
-## **Функция `get_id`**
+### **Функция `get_id`**
 
   Смотреть в файле `Discord_bot.py`. Строка 597-600
   
